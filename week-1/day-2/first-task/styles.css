@@ -1,0 +1,46 @@
+html {
+    font-size: 20px;
+    font-style: courier;
+}
+div{
+    text-decoration: underline;
+    width: 100%;
+    background-color: #333333;
+}
+a, h2 {
+    color: #ff0099;
+}
+body {
+    background: url(/Users/Csabi/Desktop/myfirstwebpage/attributes/topography.png);
+}
+h1 {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 60px;
+}
+h2 {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 60px;
+}
+p {
+    padding-top: 0px;
+    padding-right: 60px;
+    padding-bottom: 0px;
+    padding-left: 60px;
+}
+h3 {
+    padding-top: 80px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 60px;
+}
+#dash {
+    position: absolute;
+    left: 600px;
+}
+#header{
+    
+}
