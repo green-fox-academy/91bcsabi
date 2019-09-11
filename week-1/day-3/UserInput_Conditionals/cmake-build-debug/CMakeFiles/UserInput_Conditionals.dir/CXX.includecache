@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Csabi/Desktop/csabigit/greenfox/91bcsabi/week-1/day-3/UserInput_Conditionals/main.cpp
+iostream
+-
+string
+-
+cmath
+-
+

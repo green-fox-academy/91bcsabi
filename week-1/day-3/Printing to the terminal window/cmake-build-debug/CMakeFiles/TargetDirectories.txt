@@ -1,0 +1,3 @@
+/Users/Csabi/CLionProjects/Printing to the terminal window/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Csabi/CLionProjects/Printing to the terminal window/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Csabi/CLionProjects/Printing to the terminal window/cmake-build-debug/CMakeFiles/Printing_to_the_terminal_window.dir

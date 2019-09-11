@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.14)
+project(Variables_and_Arithmetic_Assignment_Operators)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(Variables_and_Arithmetic_Assignment_Operators main.cpp)
