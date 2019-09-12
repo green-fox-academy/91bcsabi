@@ -8,7 +8,7 @@ int main(int argc, char* args[]) {
 
     // Modify this program to greet user instead of the World!
     // The program should ask for the name of the user
-/*
+
     std::string name;
     cout << "What is your name?: ";
     cin >> name;
@@ -69,7 +69,7 @@ int main(int argc, char* args[]) {
     //
     // It should print: Sausage party
     // If no girls are coming, regardless the count of the people
-*/
+
     int girlsnum, boysnum;
     std::cout << "Please give me a number for girls!" <<endl;
     std::cin >> girlsnum;
