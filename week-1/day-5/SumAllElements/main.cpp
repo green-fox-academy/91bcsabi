@@ -14,8 +14,8 @@ int sum(int arr[], int n){
         return sum;
 }
 
-int main()
-{
+int main(int argc, char* args[]){
+
     int ai[] = {3, 4, 5, 6, 7};
     int n = sizeof(ai) / sizeof(ai[0]);
     printf("Sum of given array is %d", sum(ai, n));

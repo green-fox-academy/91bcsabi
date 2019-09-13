@@ -27,7 +27,7 @@ void printArray(int arr[], int size)
     cout << endl;
 }
 
-int main(){
+int main(int argc, char* args[]){
     int aj[] = {3, 4, 5, 6, 7};
 
     reverseArray(aj, 0, 4);

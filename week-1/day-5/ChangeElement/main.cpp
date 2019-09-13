@@ -6,7 +6,7 @@ using namespace std;
 // - Change the 8 to 4
 // - Print the fourth element
 
-int main() {
+int main(int argc, char* args[]){
 
     int s[6] = {1, 2, 3, 8, 5, 6};
     int temp;
