@@ -10,7 +10,7 @@ int main() {
 
     int q[] = {4, 5, 6, 7};
 
-    std::cout << "The third element is: " << q[2] << std::endl;
+    cout << "The third element is: " << q[2] << endl;
 
     return 0;
 }
