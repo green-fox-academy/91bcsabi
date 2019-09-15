@@ -1,6 +1,9 @@
 # BALAZSI CSABA
 
-## cardrawing
+## My GitHub profile
 
+https://github.com/91bcsabi
 
-https://www.geeksforgeeks.org/draw-a-moving-car-using-computer-graphics-programming-in-c/
+## Chama Accord Wiki
+
+https://github.com/green-fox-academy/accord-syllabus/wiki
