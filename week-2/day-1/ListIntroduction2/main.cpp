@@ -39,7 +39,11 @@ int main() {
     }else{
         std::cout << "Size of the Lists are not equal" << std::endl;
     }
-
+    for (int i = 0; i<=ListA.size()-1; ++i){
+        if(ListA[i]=="Avocado"){
+            std::cout << "index number for" << "Avocado" << "is " << i << std::endl;
+        }
+    }
 
     return 0;
 }
