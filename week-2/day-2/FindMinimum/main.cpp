@@ -7,16 +7,15 @@ using namespace std;
 // and returns a pointer to its minimum value
 
 
-int FindMin(int numbers[],int n){ //function to find smallest element
-
+int FindMin(int numbers[],int n){
     int i, min;
-    min = numbers[0];// assuming first element as minimum
+    min = numbers[0];
     for(i=1;i<n;i++)
     {
-        if(numbers[i]<min)// If current element is smaller than min
-            min =numbers[i];//assigning the smaller number to min
+        if(numbers[i]<min)
+            min =numbers[i];
     }
-    return min; //returns the smallest number to main function
+    return min;
 }
 int main(){
 

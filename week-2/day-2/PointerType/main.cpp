@@ -14,14 +14,14 @@ int main (){
     int* aPointer;
     double* bPointer;
     string* BobPointer;
-    cout << aPointer << endl;
+
+    cout << aPointer << " , " << bPointer << " , " << BobPointer << endl;
 
     aPointer = &a;
     bPointer = &b;
     BobPointer = (string *) "&Bob";
 
     cout << aPointer << " , " << bPointer << " , " << BobPointer << endl;
-    cout << a << " , " << b << " , " << name << endl;
 
     return 0;
 }

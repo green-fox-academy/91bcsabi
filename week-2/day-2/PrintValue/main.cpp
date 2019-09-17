@@ -2,9 +2,6 @@
 
 using namespace std;
 
-void passByValue (int x){
-    x = 0;
-}
 
 int main (){
 
@@ -12,9 +9,10 @@ int main (){
     // (you have to create the pointer first)
 
     int age = 31;
-    passByValue(age);
+    int* agePointer;
+    agePointer = &age;
 
-    cout << "age is " << age << endl;
+    cout << "age is " << *agePointer << endl;
 
     return 0;
 }
