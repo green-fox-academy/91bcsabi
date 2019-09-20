@@ -4,8 +4,6 @@
 
 #include "draw.h"
 
-#include "draw.h"
-
 void draw(SDL_Renderer* gRenderer) {
     int a1 = 540;
     int b1 = 580;
