@@ -12,12 +12,15 @@ int main() {
     // You found the number: 8
 
     int a = 8;
-    int n;
+    double n;
 
     do {
         cout << "Guess my number!" << endl;
-        cin >> n;
-
+        && ! cin >> n;
+        cin.clear();
+        string line;
+        getline(cin, line);
+        cout << "I am sorry, but '" << line << "' is not a number\n";
         if(n < a) {
             cout << "My number is higher!" << endl;
         }else if(n > a) {
