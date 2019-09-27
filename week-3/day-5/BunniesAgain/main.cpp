@@ -14,14 +14,14 @@ int main(){
     cin>>a;
 
     int b = 2;
-    cout<<"\nEars of the bunnies is : "<<Mul(a,b)<<endl;
+    cout<<"\nEars of the bunnies is : "<<Mul(a,b)+Mul(a,b)/4 <<endl;
     return 0;
 }
 
 int Mul(int a , int b){
-    if (b==0)
-        return 0;
     if (a==0)
+        return 0;
+    if (b==0)
         return 0;
     else
         return (a + Mul(a,b-1));
