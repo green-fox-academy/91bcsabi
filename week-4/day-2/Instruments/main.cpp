@@ -19,9 +19,9 @@ int main( int argc, char* args[] )
 {
 
     cout << "Test 1, create Electric Guitar, Bass Guitar and Violin with default strings." << endl;
-    ElectricGuitar guitar;
-    BassGuitar bassGuitar;
-    Violin violin;
+    ElectricGuitar guitar(std::string(), 0);
+    BassGuitar bassGuitar(std::string(), 0);
+    Violin violin(std::string(), 0);
 
     cout<< "Test 1 Play" << endl;
     guitar.play();
@@ -29,8 +29,8 @@ int main( int argc, char* args[] )
     violin.play();
 
     cout << "Test 2, create Electric Guitar, Bass Guitar with 7 and 5 strings ." << endl;
-    ElectricGuitar guitar2(7);
-    BassGuitar bassGuitar2(5);
+    ElectricGuitar guitar2(std::string(), 0, 7);
+    BassGuitar bassGuitar2(std::string(), 0, 5);
 
     cout << "Test 2 Play" << endl;
     guitar2.play();

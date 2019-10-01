@@ -8,11 +8,11 @@
 
 #include "StringedInstrument.h"
 
-class ElectricGuitar : StringedInstrument {
+class ElectricGuitar : public StringedInstrument {
 public:
     ElectricGuitar(string name, int numberOfStrings);
-
-    void play()override ;
+    ElectricGuitar(string name, int numberOfStrings, int numb);
+    string sound() override ;
 protected:
 
 };

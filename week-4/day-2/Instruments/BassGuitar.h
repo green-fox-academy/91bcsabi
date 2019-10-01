@@ -8,8 +8,10 @@
 
 #include "StringedInstrument.h"
 
-class BassGuitar : StringedInstrument {
+class BassGuitar : public StringedInstrument {
 public:
+    string sound() override;
+    BassGuitar(string name, int numberOfStrings, int numb);
     BassGuitar(string name, int numberOfStrings);
 protected:
 

@@ -4,6 +4,15 @@
 
 #include "BassGuitar.h"
 
-BassGuitar::BassGuitar(string name, int numberOfStrings) : StringedInstrument(name, 4) {
+std::string BassGuitar::sound(){
+    return "Duum-duum-duum";
+}
 
+BassGuitar::BassGuitar(string name, int numberOfStrings) : StringedInstrument(name, numberOfStrings) {
+    _numberOfStrings = 4;
+    _name = "Bass Guitar";
+}
+BassGuitar::BassGuitar(string name, int numberOfStrings, int numb) : StringedInstrument(name, numberOfStrings) {
+    _numberOfStrings = numb;
+    _name = "Bass Guitar";
 }

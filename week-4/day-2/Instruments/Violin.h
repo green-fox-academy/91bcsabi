@@ -8,9 +8,11 @@
 
 #include "StringedInstrument.h"
 
-class Violin : StringedInstrument {
+class Violin : public StringedInstrument {
 public:
+    string sound() override;
     Violin(string name, int numberOfStrings);
+    Violin(string name, int numberOfStrings, int numb);
 protected:
 
 };

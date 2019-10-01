@@ -8,11 +8,12 @@
 #include "Instrument.h"
 
 
-class StringedInstrument : Instrument {
+class StringedInstrument : public Instrument {
 public:
     StringedInstrument(string name, int numberOfStrings);
 
-    virtual void sound() = 0;
+    virtual string sound() = 0;
+    virtual void play();
 protected:
     int _numberOfStrings;
 };
