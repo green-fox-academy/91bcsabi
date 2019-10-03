@@ -3,12 +3,22 @@
 //
 
 #include <iostream>
+#include <vector>
+
 using namespace std;
 
 int CowsAndBulls(){
 
     cout << "Let's play Bulls and Cows...Guess a 4 digit number!" << endl;
-    char* myNum = "0917";
+
+    vector<int> vecOfRandomNums(4);
+
+    generate(vecOfRandomNums.begin(), vecOfRandomNums.end(), []() {
+        return rand() % 9;
+    });
+
+
+    }
     string guess;
     cin >> guess;
 
