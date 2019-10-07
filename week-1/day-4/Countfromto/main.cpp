@@ -18,12 +18,12 @@ int main() {
     // 5
 
     int first , second;
-    cout << "Give me a number!";
+    cout << "Give me a number!\n";
     cin >> first;
-    cout << "Give me another number!";
+    cout << "Give me another number!\n";
     cin >> second;
         while(first >= second) {
-            cout << "The second number should be bigger! ";
+            cout << "The second number should be bigger!\n";
             cin >> second;
         }
             for (int i = first; i <= second; ++i) {

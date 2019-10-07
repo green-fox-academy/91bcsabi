@@ -11,7 +11,42 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eccb936-34f4-4d6a-b292-0468aa27767e" name="Default Changelist" comment="" />
+    <list default="true" id="9eccb936-34f4-4d6a-b292-0468aa27767e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/Printing_to_the_terminal_window.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/Printing_to_the_terminal_window.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/Printing_to_the_terminal_window.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/Printing_to_the_terminal_window.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/Printing_to_the_terminal_window.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/Printing_to_the_terminal_window.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/Printing_to_the_terminal_window.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/Printing_to_the_terminal_window.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/Printing_to_the_terminal_window.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/Printing_to_the_terminal_window.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/Printing_to_the_terminal_window" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/Printing_to_the_terminal_window" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/Printing_to_the_terminal_window.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/Printing_to_the_terminal_window.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printing to the terminal window/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Printing to the terminal window/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Variables_and_Arithmetic_Assignment_Operators" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Variables_and_Arithmetic_Assignment_Operators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Variables_and_Arithmetic_Assignment_Operators.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Variables_and_Arithmetic_Assignment_Operators.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +57,14 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="ProjectId" id="1QgjHjuDQNCNP9dsQE7XmFqyLJm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,10 +105,22 @@
       <workItem from="1568199126178" duration="4621000" />
       <workItem from="1568204490109" duration="5005000" />
       <workItem from="1568210110060" duration="236000" />
+      <workItem from="1570450849042" duration="1687000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

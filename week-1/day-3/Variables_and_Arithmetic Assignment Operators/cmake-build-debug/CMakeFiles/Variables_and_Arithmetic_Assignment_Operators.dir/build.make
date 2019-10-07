@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/Csabi/CLionProjects/Variables_and_Arithmetic Assignment Operators"
+CMAKE_SOURCE_DIR = "/Users/Csabi/Desktop/csabigit/greenfox/91bcsabi/91bcsabi/week-1/day-3/Variables_and_Arithmetic Assignment Operators"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/Csabi/CLionProjects/Variables_and_Arithmetic Assignment Operators/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/Csabi/Desktop/csabigit/greenfox/91bcsabi/91bcsabi/week-1/day-3/Variables_and_Arithmetic Assignment Operators/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/flags.make
 
 CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.o: CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/flags.make
 CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Csabi/CLionProjects/Variables_and_Arithmetic Assignment Operators/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.o -c "/Users/Csabi/CLionProjects/Variables_and_Arithmetic Assignment Operators/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Csabi/Desktop/csabigit/greenfox/91bcsabi/91bcsabi/week-1/day-3/Variables_and_Arithmetic Assignment Operators/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.o -c "/Users/Csabi/Desktop/csabigit/greenfox/91bcsabi/91bcsabi/week-1/day-3/Variables_and_Arithmetic Assignment Operators/main.cpp"
 
 CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Csabi/CLionProjects/Variables_and_Arithmetic Assignment Operators/main.cpp" > CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Csabi/Desktop/csabigit/greenfox/91bcsabi/91bcsabi/week-1/day-3/Variables_and_Arithmetic Assignment Operators/main.cpp" > CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.i
 
 CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Csabi/CLionProjects/Variables_and_Arithmetic Assignment Operators/main.cpp" -o CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Csabi/Desktop/csabigit/greenfox/91bcsabi/91bcsabi/week-1/day-3/Variables_and_Arithmetic Assignment Operators/main.cpp" -o CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.s
 
 # Object files for target Variables_and_Arithmetic_Assignment_Operators
 Variables_and_Arithmetic_Assignment_Operators_OBJECTS = \
@@ -80,7 +80,7 @@ Variables_and_Arithmetic_Assignment_Operators_EXTERNAL_OBJECTS =
 Variables_and_Arithmetic_Assignment_Operators: CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/main.cpp.o
 Variables_and_Arithmetic_Assignment_Operators: CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/build.make
 Variables_and_Arithmetic_Assignment_Operators: CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/Csabi/CLionProjects/Variables_and_Arithmetic Assignment Operators/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Variables_and_Arithmetic_Assignment_Operators"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/Csabi/Desktop/csabigit/greenfox/91bcsabi/91bcsabi/week-1/day-3/Variables_and_Arithmetic Assignment Operators/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Variables_and_Arithmetic_Assignment_Operators"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +93,6 @@ CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/clean:
 .PHONY : CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/clean
 
 CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/depend:
-	cd "/Users/Csabi/CLionProjects/Variables_and_Arithmetic Assignment Operators/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/Csabi/CLionProjects/Variables_and_Arithmetic Assignment Operators" "/Users/Csabi/CLionProjects/Variables_and_Arithmetic Assignment Operators" "/Users/Csabi/CLionProjects/Variables_and_Arithmetic Assignment Operators/cmake-build-debug" "/Users/Csabi/CLionProjects/Variables_and_Arithmetic Assignment Operators/cmake-build-debug" "/Users/Csabi/CLionProjects/Variables_and_Arithmetic Assignment Operators/cmake-build-debug/CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/Csabi/Desktop/csabigit/greenfox/91bcsabi/91bcsabi/week-1/day-3/Variables_and_Arithmetic Assignment Operators/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/Csabi/Desktop/csabigit/greenfox/91bcsabi/91bcsabi/week-1/day-3/Variables_and_Arithmetic Assignment Operators" "/Users/Csabi/Desktop/csabigit/greenfox/91bcsabi/91bcsabi/week-1/day-3/Variables_and_Arithmetic Assignment Operators" "/Users/Csabi/Desktop/csabigit/greenfox/91bcsabi/91bcsabi/week-1/day-3/Variables_and_Arithmetic Assignment Operators/cmake-build-debug" "/Users/Csabi/Desktop/csabigit/greenfox/91bcsabi/91bcsabi/week-1/day-3/Variables_and_Arithmetic Assignment Operators/cmake-build-debug" "/Users/Csabi/Desktop/csabigit/greenfox/91bcsabi/91bcsabi/week-1/day-3/Variables_and_Arithmetic Assignment Operators/cmake-build-debug/CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Variables_and_Arithmetic_Assignment_Operators.dir/depend
 

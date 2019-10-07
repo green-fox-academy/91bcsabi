@@ -18,23 +18,22 @@ int main(int argc, char* args[]) {
     // then it converts that value to kilometers and prints it
 
     float miles;
-    cout << "Please enter miles!:";
+    cout << "Please enter a number of miles!\n";
     cin >> miles;
     double kilometers = miles * 1.6;
-    cout << miles << " Miles " << endl;
-    cout << kilometers << " Kilometers " << endl;
+    cout << miles << " Miles " << " = " << kilometers << " Kilometers \n";
 
     // Write a program that reads a number from the standard input,
     // Then prints "Odd" if the number is odd, or "Even" if it is even.
 
     int num;
-    cout << "Please enter your number! ";
+    cout << "Please enter a number!\n";
     cin >> num;
     if (num %2== 0) {
         cout << "Your number is even" << endl;
-    } else {
+    }else {
         cout << "Your number is odd" << endl;
-        }
+    }
 
     // Write a program that reads a number form the standard input,
     // If the number is zero or smaller it should print: Not enough
@@ -43,7 +42,7 @@ int main(int argc, char* args[]) {
     // If the number is more than two it should print: A lot
 
     int number;
-    cout << "Please enter another number!";
+    cout << "Please enter another number!\n";
     cin >> number;
     if (number <= 0){
         cout << "Not enough!" << endl;
@@ -85,6 +84,41 @@ int main(int argc, char* args[]) {
     }else if(girlsnum == 0){
         cout << "Sausage party!" << endl;
     }
+
+
+    // Write a program that asks for two integers
+    // The first represents the number of chickens the farmer has
+    // The second represents the number of pigs owned by the farmer
+    // It should print how many legs all the animals have
+
+    cout << "Please give me two numbers for chickens and pigs(put space between numbers)!" << endl;
+    int chickenNumber;
+    int pigNumber ;
+    cin >> chickenNumber >> pigNumber ;
+
+    cout << "Chickens have " << chickenNumber * 2 << " legs, and Pigs have " << pigNumber * 4 << " legs " << endl;
+
+    // Write a program that asks for 5 integers in a row,
+    // then it should print the sum and the average of these numbers like:
+    //
+    // Sum: 22, Average: 4.4
+
+
+    cout << "Please give me 5 numbers (put space between numbers)!" << endl;
+
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+
+    cin >> a >> b >> c >> d >> e ;
+
+    int sum = a+b+c+d+e;
+    float average = (a+b+c+d+e) / 5;
+
+    cout << "Sum: " << sum << " Average: " << average << endl;
+
 
         return 0;
 }

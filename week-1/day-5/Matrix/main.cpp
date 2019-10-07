@@ -15,10 +15,30 @@ using namespace std;
 
 int main(int argc, char* args[]) {
 
-    int numList[] = {3, 4, 5, 6, 7};
+    int num;
 
-    for(int i = 0; i < sizeof(numList)/sizeof(numList[0]); i++) {
-        cout << numList[i] << endl;
+    std::cout << "Enter size: ";
+    std::cin >> num;
+
+    int matrix[num][num];
+
+    for (int i = 0; i < num; ++i) {
+        for (int j = 0; j < num; ++j) {
+            if (i == j) {
+                matrix[i][j] = 1;
+            } else {
+                matrix[i][j] = 0;
+            }
+
+        }
+    }
+
+    for (int i = 0; i < num; ++i) {
+        for (int j = 0; j < num; ++j) {
+            std::cout << matrix[i][j];
+        }
+        std::cout << std::endl;
+    }
 
     return 0;
 }

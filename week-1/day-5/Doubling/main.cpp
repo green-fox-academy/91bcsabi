@@ -6,15 +6,15 @@ using namespace std;
 // - Create a function called `doubling` that doubles it's input parameter and returns with an integer
 // - Print the result of `doubling(baseNum)`
 
-int doubling( int & x) {
+int doubling( int x) {
     x = 2 * x;
-    cout << x << endl;
+    return x;
 }
 
 int main(int argc, char* args[]){
 
     int baseNum = 123;
-    doubling(baseNum);
+    cout << doubling(baseNum) << endl;
 
     return 0;
 }
