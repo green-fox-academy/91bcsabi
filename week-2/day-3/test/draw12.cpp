@@ -13,13 +13,13 @@ void draw(int x, int y, int size, SDL_Renderer* gRenderer)
                     size
             };
             SDL_Rect fillRect2 = {
-                    x + size + offsetX,
+                   x + size + offsetX,
                     y + size + offsetY,
                     size,
                     size
             };
             SDL_RenderFillRect( gRenderer, &fillRect );
-            SDL_RenderFillRect( gRenderer, &fillRect2 );
+           // SDL_RenderFillRect( gRenderer, &fillRect2 );
         }
     }
 }
