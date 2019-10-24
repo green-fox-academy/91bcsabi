@@ -95,6 +95,57 @@ int main() {
         is_palindrome("madam");
         is_palindrome("ada") ;
         is_palindrome("lovelace") ;
+
+        //BONUS EXCERCICE
+
+std::vector<std::vector<int>> transposeMatrix(std::vector<std::vector<int>> input){
+    std::vector<std::vector<int>> output(3, std::vector<int>(3, 0));
+    for (int i = 0; i < input.size(); ++i) {
+        for (int j = 0; j < input.size(); ++j) {
+            output[i][j] = input[j][i];
+        }
+    }
+    return output;
+}
+
+void outputMatrix(std::vector<std::vector<int>> matrix){
+    for (int i = 0; i < matrix.size(); ++i) {
+        std::cout << "[ ";
+        for (int j = 0; j < matrix.size(); ++j) {
+            std::cout << matrix[i][j];
+            if(j < matrix.size()-1) std::cout << ", ";
+        }
+        std::cout << " ]" << std::endl;
+    }
+}
+
+
+int main() {
+
+    std::vector<std::vector<int>> matrix(3, std::vector<int>(3, 0));
+
+    matrix[0][0] = 1;
+    matrix[0][1] = 3;
+    matrix[2][1] = 8;
+    matrix[1][2] = -5;
+
+    outputMatrix(matrix);
+
+    std::cout << std::endl;
+
+    outputMatrix(transposeMatrix(matrix));
+
+    int size = 3;
+    std::vector<std::vector<int>> test;
+    std::vector<int> row;
+    for (int i = 0; i < size; ++i) {
+        row.push_back(0);
+    }
+    for (int i = 0; i < size; ++i) {
+        test.push_back(row);
+    }
+
+
 */
     return 0;
 }

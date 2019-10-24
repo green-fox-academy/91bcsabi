@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 //
 // Created by Csabi on 26/09/2019.
 //
@@ -8,12 +9,14 @@
 
 class Car {
 public:
-    Car(int gasAmount,int Capacity);
+    Car(std::string name,int gasAmount,int Capacity);
 
     void fill();
     bool isFull();
+    void status();
 
 private:
+    std::string _name;
     int _gasAmount;
     int _capacity;
 };

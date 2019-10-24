@@ -1,27 +1,16 @@
-//
-// Created by Csabi on 30/09/2019.
-//
-
-#ifndef THEGARDEN_FLOWER_H
-#define THEGARDEN_FLOWER_H
+#ifndef OOPEXAMPLE_FLOWER_H
+#define OOPEXAMPLE_FLOWER_H
 
 #include <iostream>
-using namespace std;
+#include "Plant.h"
 
 
-class Flower {
+class Flower : public Plant {
 public:
-    Flower();
-    Flower(string blueFlower, string yellowFlower,int waterAmount) : _blueFlower(blueFlower),_yellowFlower(yellowFlower), _waterAmount(waterAmount){}
-
-    void watering();
-
-protected:
-    string _blueFlower;
-    string _yellowFlower;
-    int _waterAmount;
-
+    Flower(std::string);
+    void waterMe(float) override;
+    bool needWater() override;
 };
 
 
-#endif //THEGARDEN_FLOWER_H
+#endif //OOPEXAMPLE_FLOWER_H

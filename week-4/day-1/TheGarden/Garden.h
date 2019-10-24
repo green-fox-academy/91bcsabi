@@ -1,22 +1,19 @@
-//
-// Created by Csabi on 30/09/2019.
-//
 
-#ifndef THEGARDEN_GARDEN_H
-#define THEGARDEN_GARDEN_H
+#ifndef OOPEXAMPLE_GARDEN_H
+#define OOPEXAMPLE_GARDEN_H
 
-#include <iostream>
-#include "Tree.h"
-#include "Flower.h"
-
-using namespace std;
+#include <vector>
+#include "Plant.h"
 
 
-class Garden : public Tree, public Flower{
+class Garden {
 public:
+    void plantPlant(Plant* plant);
+    void waterPlants(float waterAmount);
 
+private:
+    std::vector<Plant*> _plants;
 };
 
 
-
-#endif //THEGARDEN_GARDEN_H
+#endif //OOPEXAMPLE_GARDEN_H

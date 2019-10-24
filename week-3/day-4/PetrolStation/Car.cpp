@@ -1,12 +1,12 @@
 #include <iostream>
+
 //
 // Created by Csabi on 26/09/2019.
 //
 #include "Car.h"
 
-Car::Car(int gasAmount, int capacity) {
-    _gasAmount = gasAmount;
-    _capacity = capacity;
+Car::Car(std::string name, int gasAmount, int capacity) : _name(name), _gasAmount(gasAmount), _capacity(capacity){
+
 }
 
 bool Car::isFull() {
@@ -15,4 +15,8 @@ bool Car::isFull() {
 
 void Car::fill() {
     _gasAmount++;
+}
+
+void Car::status() {
+    std::cout << _name << " has " << _gasAmount << " of gas" << std::endl;
 }

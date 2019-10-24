@@ -9,16 +9,24 @@ int main() {
 
     Station gasStation;
 
-    Car car1(10, 50);
-    Car car2(20, 50);
-    Car car3(30, 50);
-    Car car4(40, 50);
-    Car car5(50, 50);
+    Car fiat("Scudo", 20, 30);
+    Car opel("Astra", 30, 30);
+    Car toyota("Yaris", 10, 40);
 
-    std::vector<Car> cars = {car1, car2, car3, car4, car5};
+    fiat.status();
+    fiat.isFull();
+
+    opel.status();
+    opel.isFull();
+
+    toyota.status();
+    toyota.isFull();
+
+    std::vector<Car> cars = {fiat, opel, toyota};
 
     for (int i = 0; i < cars.size(); ++i) {
         gasStation.fill(cars[i]);
     }
+
     return 0;
 }

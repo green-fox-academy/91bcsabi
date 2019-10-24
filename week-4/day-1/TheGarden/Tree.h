@@ -1,26 +1,17 @@
-//
-// Created by Csabi on 30/09/2019.
-//
 
-#ifndef THEGARDEN_TREE_H
-#define THEGARDEN_TREE_H
+#ifndef OOPEXAMPLE_TREE_H
+#define OOPEXAMPLE_TREE_H
 
 #include <iostream>
-using namespace std;
+#include "Plant.h"
 
 
-class Tree {
+class Tree : public Plant {
 public:
-    Tree(string purpleTree, string orangeTree) : _purpleTree(purpleTree), _orangeTree(orangeTree){}
-    Tree();
-
-    void watering();
-
-protected:
-    string _purpleTree;
-    string _orangeTree;
-
+    Tree(std::string);
+    void waterMe(float) override;
+    bool needWater() override;
 };
 
 
-#endif //THEGARDEN_TREE_H
+#endif //OOPEXAMPLE_TREE_H
